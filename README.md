@@ -1,3 +1,5 @@
+![Travis CI](https://travis-ci.com/marvinjude/gospel-hyms.svg?branch=master "Travis CI")
+
 ## Motivation
 
 A few years back I was quite curious about how apps work, The hymns app mostly used in my church also sprung up my curiosity, After going through the app for a while, I found the phone number of the author! I legit called and asked how he made it. He did a few explanation which I didn't even understand back then.
