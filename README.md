@@ -14,7 +14,7 @@ This project exposes an API at `https://gospel-hymns.herokuapp.com/api/v1` but y
 
 ## API rate limit
 
-The API at `https://gospel-hymns.herokuapp.com/api/v1` is rate limited to **100 API calls/ 15mins**
+The API at `https://gospel-hymns.herokuapp.com/api/v1` is rate limited to **100 API calls/15mins**
 so the API can't be accessed once the API client exceeds that.
 
 ## Hymns Index
