@@ -72,4 +72,11 @@ app.get("/api/v1/search/:term", function(req, res) {
   });
 });
 
+app.get("*", (req, res) => {
+  res.status(404).json({
+    success: false,
+    message: `Oops! You hit a route that doesn't exist. Check https://github.com/marvinjude/gospel-hyms#api-endpoints for a list of endpoints`
+  });
+});
+
 module.exports = app;
