@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Download Gospel Hymns and Songs(GHS) JSON</title>
+    <style>
+      body {
+        padding: 0px;
+        margin: 0px;
+        height: 100vh;
+        font-family: "Google Sans";
+      }
+      *:focus {
+        outline: none;
+      }
+      .btn {
+        padding: 10px;
+        background-color: #ff2f56;
+        border: 1px solid #ff2f56;
+        color: white;
+        border-radius: 20px;
+        font-size: 15px;
+        border: none;
+        margin-top: 10px;
+        width: 100%;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+      }
+      .btn:hover {
+        color: rgb(247, 218, 224);
+      }
+      .image {
+        border: 1px solid crimson;
+        border-radius: 10px;
+        height: 300px;
+        width: 200px;
+      }
+      .flex {
+        display: flex;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body class="flex  justify-center items-center">
+    <div class="container flex justify-center items-center flex-col">
+      <div class="image flex justify-center items-center flex-col">
+        <span style="font-size: 30px; font-weight: bold;">JSON</span>
+        <span>Gospel Hymns & Songs</span>
+      </div>
+      <a href="./download" class="btn" download>DOWNLOAD</a>
+    </div>
+  </body>
+</html>
