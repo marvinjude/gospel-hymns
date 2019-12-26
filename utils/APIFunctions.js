@@ -1,4 +1,4 @@
-const db = require("./content/db.json");
+const db = require("../content/db.json");
 
 function getCategories() {
   return db.categories;
