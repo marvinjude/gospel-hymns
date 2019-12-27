@@ -10,7 +10,7 @@ Fast foward to 2019. **I'm now a Software Engineer** 😌😊 Now I can build ap
 
 ## Download hymns JSON
 
-This project exposes an API at `https://gospel-hymns.herokuapp.com/api/v1` but you can choose to download the json file that hold the data for every hymn and use it directly in your project. Download [here](`https://gospel-hymns.herokuapp.com/downloads)
+This project exposes an API at `https://gospel-hymns.herokuapp.com/api/v1` but you can choose to download the json file that hold the data for every hymn and use it directly in your project. Download [here](https://gospel-hymns.herokuapp.com/downloads)
 
 ## API rate limit
 
