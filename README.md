@@ -597,6 +597,6 @@ If you run in any bug using this please feel free to open an issue or [catch me 
 ## Issue
 **A few sounds are missing!! Yes i know. I'll add them once I get it.**
 
-If you find any other issue or some typo in the hymns, you can contact me or edit the associated hymn in the `Hymns` directory and open a PR. Once merged, a new json file will be generated for use by the API and can also be downloaded [here](`https://gospel-hymns.herokuapp.com/downloads)
+If you find any other issue or some typo in the hymns, you can contact me or edit the associated hymn in the `Hymns` directory and open a PR. Once merged, a new json file will be generated for use by the API and can also be downloaded [here](https://gospel-hymns.herokuapp.com/downloads)
 
 
