@@ -2,7 +2,8 @@ var express = require("express");
 var cors = require("cors");
 var rateLimit = require("express-rate-limit");
 var app = express();
-var {
+
+const {
   getHymnByNumber,
   getCategories,
   getHymnsInCategory,
@@ -47,7 +48,10 @@ app.get("/download", (req, res) => {
 });
 
 app.get("/api/v1/category", function(req, res) {
-  res.status(200).send(getCategories());
+  res.status(200).send({
+    success: true,
+    data: getCategories()
+  });
 });
 
 app.get("/api/v1/category/:category", function(req, res) {
@@ -69,13 +73,6 @@ app.get("/api/v1/search/:term", function(req, res) {
   res.status(200).json({
     success: true,
     data: matches
-  });
-});
-
-app.get("*", (req, res) => {
-  res.status(404).json({
-    success: false,
-    message: `Oops! You hit a route that doesn't exist. Check https://github.com/marvinjude/gospel-hyms#api-endpoints for a list of endpoints`
   });
 });
 

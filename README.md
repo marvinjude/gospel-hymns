@@ -282,7 +282,16 @@ so the API can't be accessed once the API client exceeds that.
 | More Like the Master                           | 259    |
 | Gracious Spirit, Dwell With me                 | 260    |
 
-## API Endpoints
+## Graphql
+
+If you're a cool kid you can use Graphql.
+
+Endpoint: `https://gospel-hymns.herokuapp.com/graphql` - POST
+Playground: `https://gospel-hymns.herokuapp.com/graphql` - GET
+
+![Playground](https://raw.githubusercontent.com/marvinjude/gospel-hyms/master/graphqlplayground.png "Playground")
+
+## REST API Endpoints
 
 ### GET - api/v1/hymn/{number} - Get hymn by number
 
@@ -595,8 +604,7 @@ Watching for that pattern, a huge JSON file `content/db.json` is generated from 
 If you run in any bug using this please feel free to open an issue or [catch me on twitter](www.twitter.com/marvinjudehk) to make it faster
 
 ## Issue
+
 **A few sounds are missing!! Yes i know. I'll add them once I get it.**
 
 If you find any other issue or some typo in the hymns, you can contact me or edit the associated hymn in the `Hymns` directory and open a PR. Once merged, a new json file will be generated for use by the API and can also be downloaded [here](https://gospel-hymns.herokuapp.com/downloads)
-
-

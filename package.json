@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^2.9.15",
     "app-root-path": "^3.0.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
