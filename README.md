@@ -588,12 +588,15 @@ You would notice a few patterns from those files
 - Each verse in a hymn is separated with a line
 - Each line in a chorus is preceeded with four lines
 
-Watching for that pattern, a huge JSON file `content/db.json` is generated from the hymns. You can take a look of `makeDB.js` to see how `content/db.json` is generated. `categories.js` maps a category to hymn numbers. This is also used while generating `content/db.json`
+Watching for that pattern, a huge JSON file `content/db.json` is generated from the hymns. You can take a look of `makeDB.js` to see how `content/db.json` is generated. `categories.js` and `sounds.js` maps a category to hymn numbers and holds the URL to the sound respectively for each hymn . This is also used while generating `content/db.json`.
 
 ## Contributions
 
 If you run in any bug using this please feel free to open an issue or [catch me on twitter](www.twitter.com/marvinjudehk) to make it faster
 
 ## Issue
+**A few sounds are missing!! Yes i know. I'll add them once I get it.**
 
-If you find some typo in the hymns, you can contact me or edit the associated hymn in the `Hymns` directory and open a PR. Once merged, a new json file will be generated for use by the API and can also be downloaded  [here](`https://gospel-hymns.herokuapp.com/downloads)
+If you find any other issue or some typo in the hymns, you can contact me or edit the associated hymn in the `Hymns` directory and open a PR. Once merged, a new json file will be generated for use by the API and can also be downloaded [here](`https://gospel-hymns.herokuapp.com/downloads)
+
+

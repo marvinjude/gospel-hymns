@@ -1,5 +1,6 @@
 const fs = require("fs");
 const categories = require("./categories");
+const sounds = require("./sounds");
 let DB = {};
 
 fs.readdir(`${__dirname}/Hymns`, (err, files) => {
@@ -12,6 +13,7 @@ fs.readdir(`${__dirname}/Hymns`, (err, files) => {
       const title = getHymnTitle(file);
       const titleWithHymnNumber = getTitleWithHymnNumber(file);
       const category = getCategory(Number(number));
+      const sound = getSound(Number(number));
 
       //  ADD HYMNS
       DB = {
@@ -24,6 +26,7 @@ fs.readdir(`${__dirname}/Hymns`, (err, files) => {
             titleWithHymnNumber,
             chorus,
             verses,
+            sound,
             category
           }
         }
@@ -88,4 +91,8 @@ function getHymnTitle(fileName) {
     .slice(1)
     .join(" ")
     .trim();
+}
+
+function getSound(hymnNumber) {
+  return sounds[hymnNumber] ? sounds[hymnNumber] : "";
 }
