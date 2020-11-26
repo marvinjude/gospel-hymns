@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Gospel Hymns and Songs(GHS) for developers",
   "main": "app.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "generateDB": "node makeDB.js",
     "start:dev": "yarn generateDB & nodemon server.js",
