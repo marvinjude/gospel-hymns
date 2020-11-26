@@ -4,7 +4,8 @@
   "description": "Gospel Hymns and Songs(GHS) for developers",
   "main": "app.js",
   "engines": {
-    "node": "12.x"
+    "node": "12.x",
+    "npm" : "6.x"
   },
   "scripts": {
     "generateDB": "node makeDB.js",
