@@ -19,7 +19,7 @@
     "apollo-server-express": "^2.14.2",
     "app-root-path": "^3.0.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-rate-limit": "^5.0.0"
   },
   "devDependencies": {
