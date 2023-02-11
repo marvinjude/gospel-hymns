@@ -280,7 +280,7 @@ You can also download the json file that hold the data for every hymn and use it
 
 ## Graphql
 
-If you're a cool kid you can use Graphql.
+If you're a cool kid you can use GraphQL.
 
 Endpoint: `https://gospel-hymns.herokuapp.com/graphql` - POST
 Playground: `https://gospel-hymns.herokuapp.com/graphql` - GET
