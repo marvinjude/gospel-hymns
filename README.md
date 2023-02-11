@@ -4,9 +4,9 @@
 
 ## Motivation
 
-A few years back, I was quite curious about how apps work, the hymns app mostly used in my church also sprung up my curiosity. After going through the app for a while, I found the phone number of the author! I legit called and asked how he made it. He did a few explanation which I didn't even understand back then.
+Several years ago, I became curious about the inner workings of apps, particularly the hymns app frequently used in my church. After exploring the app, I discovered the phone number of the developer and decided to call him to learn more. Despite the explanations he provided, I didn't fully understand them at the time.
 
-Fast foward to 2019. **I'm now a Software Engineer** 😌😊 Now I can build apps and empower developers to do the same. Good for me!
+Fast forward to 2019, and I am now a software engineer. I have the skills and knowledge to not only build my own apps, but to also empower other developers to do the same. This is a personal accomplishment that I am proud of. 😌😊
 
 ## Download hymns JSON
 
