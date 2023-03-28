@@ -10,8 +10,8 @@ Fast forward to 2019, and I am now a software engineer. I have the skills and kn
 
 ## Download hymns JSON
 
-This project exposes an API at `https://gospel-hymns.herokuapp.com/api/v1` [Demo](https://gospel-hymns.herokuapp.com/api/v1/hymn/26).
-You can also download the json file that hold the data for every hymn and use it directly in your project. Download [here](https://gospel-hymns.herokuapp.com/downloads)
+This project exposes an API at `https://gospel-hymns.onrender.com/api/v1` [Demo](https://gospel-hymns.onrender.com/api/v1/hymn/26).
+You can also download the json file that hold the data for every hymn and use it directly in your project. Download [here](https://gospel-hymns.onrender.com/downloads)
 
 ## Hymns Index
 
@@ -282,8 +282,8 @@ You can also download the json file that hold the data for every hymn and use it
 
 If you're a cool kid you can use GraphQL.
 
-Endpoint: `https://gospel-hymns.herokuapp.com/graphql` - POST
-Playground: `https://gospel-hymns.herokuapp.com/graphql` - GET
+Endpoint: `https://gospel-hymns.onrender.com/graphql` - POST
+Playground: `https://gospel-hymns.onrender.com/graphql` - GET
 
 ![Playground](https://raw.githubusercontent.com/marvinjude/gospel-hyms/master/graphqlplayground.png "Playground")
 
@@ -327,171 +327,39 @@ Playground: `https://gospel-hymns.herokuapp.com/graphql` - GET
   "admonition": [1, 2, 3, 4, 5, 6],
   "adoration": [214, 8, 249, 211, 9, 11, 14, 241, 212, 15, 10, 12, 213, 13],
   "assurance & confidence": [
-    35,
-    244,
-    18,
-    19,
-    34,
-    32,
-    31,
-    27,
-    16,
-    26,
-    29,
-    28,
-    24,
-    30,
-    240,
-    36,
-    17,
-    23,
-    25,
-    22,
-    33,
-    243,
-    20,
-    21
+    35, 244, 18, 19, 34, 32, 31, 27, 16, 26, 29, 28, 24, 30, 240, 36, 17, 23,
+    25, 22, 33, 243, 20, 21
   ],
   "invitation": [162, 158, 155, 228, 156, 160, 157, 161, 159],
   "prayer": [166, 165, 167, 168, 163, 171, 164, 170, 169],
   "rapture": [179, 175, 173, 174, 172],
   "commitment & consecration": [
-    80,
-    95,
-    84,
-    94,
-    78,
-    85,
-    76,
-    77,
-    92,
-    81,
-    216,
-    93,
-    227,
-    86,
-    89,
-    90,
-    210,
-    87,
-    79,
-    226,
-    83,
-    82,
-    91,
-    88
+    80, 95, 84, 94, 78, 85, 76, 77, 92, 81, 216, 93, 227, 86, 89, 90, 210, 87,
+    79, 226, 83, 82, 91, 88
   ],
   "warning & judgment": [205, 206, 208, 207, 204],
   "The lord's love and care": [
-    196,
-    198,
-    109,
-    218,
-    197,
-    201,
-    199,
-    200,
-    203,
-    202
+    196, 198, 109, 218, 197, 201, 199, 200, 203, 202
   ],
   "sanctification": [
-    181,
-    182,
-    190,
-    191,
-    183,
-    178,
-    186,
-    179,
-    187,
-    219,
-    192,
-    188,
-    184,
-    177,
-    180,
-    189,
-    185
+    181, 182, 190, 191, 183, 178, 186, 179, 187, 219, 192, 188, 184, 177, 180,
+    189, 185
   ],
   "special occasions": [193, 195, 194, 215],
   "blood of jesus": [38, 39, 40, 220, 37],
   "christian service & reward": [55, 62, 54, 56, 59, 61, 53, 58, 57, 63, 60],
   "christian life": [
-    46,
-    232,
-    44,
-    52,
-    50,
-    42,
-    223,
-    245,
-    45,
-    47,
-    49,
-    41,
-    217,
-    51,
-    43,
-    4
+    46, 232, 44, 52, 50, 42, 223, 245, 45, 47, 49, 41, 217, 51, 43, 4
   ],
   "christ our saviour": [
-    69,
-    70,
-    71,
-    66,
-    73,
-    67,
-    65,
-    239,
-    68,
-    75,
-    74,
-    64,
-    72,
-    238,
-    247
+    69, 70, 71, 66, 73, 67, 65, 239, 68, 75, 74, 64, 72, 238, 247
   ],
   "evangelism": [
-    114,
-    116,
-    119,
-    250,
-    113,
-    107,
-    118,
-    105,
-    221,
-    115,
-    108,
-    111,
-    231,
-    117,
-    121,
-    122,
-    120,
-    222,
-    106,
-    104,
-    110,
-    109,
-    112
+    114, 116, 119, 250, 113, 107, 118, 105, 221, 115, 108, 111, 231, 117, 121,
+    122, 120, 222, 106, 104, 110, 109, 112
   ],
   "grace & forgiveness": [
-    242,
-    134,
-    136,
-    124,
-    129,
-    126,
-    131,
-    130,
-    123,
-    224,
-    133,
-    132,
-    127,
-    135,
-    128,
+    242, 134, 136, 124, 129, 126, 131, 130, 123, 224, 133, 132, 127, 135, 128,
     125
   ],
   "divine healing": [103, 102],
@@ -538,7 +406,7 @@ Playground: `https://gospel-hymns.herokuapp.com/graphql` - GET
 
 ## API rate limit
 
-The API at `https://gospel-hymns.herokuapp.com/api/v1` is rate limited to **100 API calls/15mins**
+The API at `https://gospel-hymns.onrender.com/api/v1` is rate limited to **100 API calls/15mins**
 so the API can't be accessed once the API client exceeds that.
 
 ## How JSON is generated
@@ -600,16 +468,16 @@ You would notice a few patterns from those files
 
 Watching for that pattern, a JSON file `content/db.json` is generated from the hymns. You can take a look of `makeDB.js` to see how `content/db.json` is generated. `categories.js` and `sounds.js` maps a category to hymn numbers and holds the URL to the sound respectively for each hymn . This is also used while generating `content/db.json`.
 
-
 ## Contributions
 
 If you run in any bug using this please feel free to open an issue or [catch me on twitter](www.twitter.com/marvinjudehk) to make it faster
 
 ## Sample Application
+
 https://gospelhymns.netlify.app/
 
 ## Issue
 
 **A few sounds are missing!! Yes i know. I'll add them once I get it.**
 
-If you find any other issue or some typo in the hymns, you can contact me or edit the associated hymn in the `Hymns` directory and open a PR. Once merged, a new json file will be generated for use by the API and can also be downloaded [here](https://gospel-hymns.herokuapp.com/downloads)
+If you find any other issue or some typo in the hymns, you can contact me or edit the associated hymn in the `Hymns` directory and open a PR. Once merged, a new json file will be generated for use by the API and can also be downloaded [here](https://gospel-hymns.onrender.com/downloads)
