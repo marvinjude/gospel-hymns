@@ -21,7 +21,7 @@ const limiter = rateLimit({
 });
 
 app.use(cors());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(limiter);
 

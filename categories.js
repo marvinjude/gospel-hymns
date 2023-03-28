@@ -194,5 +194,3 @@ const ctx = {
 };
 
 module.exports = ctx;
-
-console.log(Object.values(ctx).flat().length);
