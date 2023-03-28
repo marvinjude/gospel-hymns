@@ -278,12 +278,9 @@ You can also download the json file that hold the data for every hymn and use it
 | More Like the Master                           | 259    |
 | Gracious Spirit, Dwell With me                 | 260    |
 
-## Graphql
+## GraphQL
 
-If you're a cool kid you can use GraphQL.
-
-Endpoint: `https://gospel-hymns.onrender.com/graphql` - POST
-Playground: `https://gospel-hymns.onrender.com/graphql` - GET
+There's also a GraphQL endpoint at `https://gospel-hymns.onrender.com/graphql`. Checkout the Playground [here](https://gospel-hymns.onrender.com/graphql)
 
 ![Playground](https://raw.githubusercontent.com/marvinjude/gospel-hyms/master/graphqlplayground.png "Playground")
 
